@@ -5,10 +5,7 @@ Developing Data Product Project 1
 This is the repository where I upload my work for Developing Data Products Project assignment 1: 
 
 In this repo, you will find
-* Programs to support my application
-1. ui.R
-2. server.R
-
+* Programs to support my application: ui.R & server.R
 * Markdown files
 * Rstudio Presentation
 * Readme file
