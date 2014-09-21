@@ -2,13 +2,17 @@ Developing Data Product Project 1
 ========================
 
 
-This is the repository where Developing Data Products Project assignment is located: The shiny application developed is a Celsius to Faranheit converter. It is very simple to use, just insert the temperature in Faranheit and click submit and you'll get the temperature returned in Celsius.
+This is the repository where I upload my work for Developing Data Products Project assignment 1: 
 
-files of the applications are:
+In this repo, you will find
+* Programs to support my application
+1. ui.R
+2. server.R
 
-ui.R
-server.R
+* Markdown files
+* Rstudio Presentation
+* Readme file
 
-The application is accesible in:
+The shiny application developed is a Celsius to Faranheit converter. You just need to plug in the insert the temperature in Faranheit or click and submit to get the temperature returned in Celsius or Faranheit.
 
-After a presentation of the application is disigned using slidify. The presentation could be visualized in:
+The Rstudio Presentation described the motivation and the developing process for this App. Also, we showed some simulation results with a sample dataset to demonstrate and validate the App. 
