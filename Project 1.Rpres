@@ -1,0 +1,72 @@
+Project1
+========================================================
+author: Castino
+date: Sep 15, 2014
+
+
+Presentation Outline
+========================================================
+
+Motivation of developing my application
+- Build a convenient tool for temporature conversion
+
+
+Process of application development
+- Develop with R Shiny Package
+- Validate the conversion results with airquality data
+- Deploy the application to RPUBS
+- Share with everyone!!
+
+
+Mathmatical Expression for Temporature Conversion
+========================================================
+
+### Celsius to Fahrenheit: Celsius temp multiply by 9/5, then add 32
+
+*  Fahrenheit = Celsius * (9/5)) + 32
+
+
+### Fahrenheit to Celsius:  Fahrenheit temp minus 32, then divided by 1.8
+
+* Celsius =  (Fahrenheit- 32) * (5/9)
+
+
+
+Simulation with R Sample Data
+========================================================
+
+```{r}
+airquality$Fahrenheit = airquality$Temp
+summary(airquality$Fahrenheit)
+```
+
+Make the F -> C Convertion 
+
+```{r}
+airquality$Celsius = (airquality$Fahrenheit - 32) * (5/9)
+summary(airquality$Celsius)
+```
+
+
+
+Plotting the Results generated from App
+========================================================
+
+Distribution of temporature in Celsius in airquality data
+
+```{r,echo=FALSE}
+hist(airquality$Celsius, xlab="Celsius", main="Histogram of Temporature in Celsius in Airquality Data")
+```
+
+***
+
+Relationship between Celsius and Fahrenheit temporatures
+
+```{r, echo=FALSE}
+plot(airquality$Celsius, airquality$Fahrenheit, xlab="Celsius", ylab="Fahrenheit", main="Relationship between Celsius and Fahrenheit temporature")
+```
+
+
+
+
+
